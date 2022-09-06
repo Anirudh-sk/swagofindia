@@ -30,9 +30,6 @@
         <header-component></header-component>
         <banner-component></banner-component>
     </header>
-    <a class='back-to-top-btn float-right' id="scroll-btn" role='button' aria-label='back to top button'>
-        <img src="https://swagofindia.netlify.app/Images/up-green.png" alt="goto top" role="icon" aria-label='back to top image'>
-    </a>
     <categories-component></categories-component>
     <latest-component></latest-component>
     <payment-component></payment-component>
@@ -42,26 +39,4 @@
 
     
 </body>
-
-<script>
-let scroll = document.getElementById('scroll-btn')
-
-function show_scroller() {
-  if (window.pageYOffset > 34) {
-    scroll.style.visibility = "visible";
-  } else {
-    scroll.style.visibility = "hidden";
-  }
-}
-scroll.addEventListener('click', scrollToTop);
-
-function scrollToTop() {
-  window.scrollTo({
-    top: 0,
-    left: 0,
-    behavior: 'smooth'
-  })
-}
-</script>
-
 </html>
