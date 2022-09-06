@@ -8,21 +8,21 @@ class Header extends HTMLElement {
         <!-- firstnav -->
         <div class="top-h" role='top header' id="back-to-top">
             <div class="social-img-holder" role='image holder'>
-                <img src="https://swagofindia.netlify.app/Images/facebook.png" alt="facebook-icon" role='icon' aria-label='facebook icon'>
-                <img src="https://swagofindia.netlify.app/Images/youtube.png" alt="youtube-icon" role='icon' aria-label='youtube icon'>
-                <img src="https://swagofindia.netlify.app/Images/Twitter.png" alt="twitter-icon" role='icon' aria-label='twitter icon'>
+                <img src="assets/facebook.png" alt="facebook-icon" role='icon' aria-label='facebook icon'>
+                <img src="assets/youtube.png" alt="youtube-icon" role='icon' aria-label='youtube icon'>
+                <img src="assets/Twitter.png" alt="twitter-icon" role='icon' aria-label='twitter icon'>
             </div>
             <div class="search-box" role='search' id="search-box">
                 <input type="search" name="searchbox" role="form" id="searchbox"
                     placeholder="Search Products and Brands" aria-labelledby="search-box">
-                <img src="https://swagofindia.netlify.app/Images/magglass.png" alt="search-icon" role='icon' aria-label='magnifying glass icon'>
+                <img src="assets/magglass.png" alt="search-icon" role='icon' aria-label='magnifying glass icon'>
             </div>
             <div class="info-tab" role="info container">
-                <img src="https://swagofindia.netlify.app/Images/call.png" id='call-icon' alt="call-icon" role='icon' aria-label='Phone icon'>
+                <img src="assets/call.png" id='call-icon' alt="call-icon" role='icon' aria-label='Phone icon'>
                 <a id='ph-number' href="" role='link'>+91 9838203708</a>
                 <a href="#" role='link'>Sell on Company</a>
                 <a href="#" role='link'>Download App</a>
-                <img src="https://swagofindia.netlify.app/Images/langicon.png" id="flag-icon" alt="lang-icon" role='icon' aria-label='language icon'>
+                <img src="assets/langicon.png" id="flag-icon" alt="lang-icon" role='icon' aria-label='language icon'>
                 <form action="#" aria-label='form'>
                     <select name="lang-select" id="lang-select" aria-labelledby="select box">
                         <option value="India" role="option" aria-labelledby="Option1">India</option>
@@ -39,9 +39,9 @@ class Header extends HTMLElement {
             <div class="sticky-bar-wrapper bg-white" id="sticky-section">
                 <nav class="navbar navbar-expand-lg navbar-light bg-white" id="bottom-header-navbar">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#"><img id="logo_img" src="https://swagofindia.netlify.app/Images/logo.png" alt="logo"></a>
+                        <a class="navbar-brand" href="#"><img id="logo_img" src="assets/logo.png" alt="logo"></a>
                         <div class="input-group d-xl-none d-lg-none" id="search-box-container">
-                        <span id="basic-addon1"><img src="https://swagofindia.netlify.app/Images/magglass.png" alt="search-icon" role="icon"aria-labelledby="magnifying glass icon"></span>
+                        <span id="basic-addon1"><img src="assets/magglass.png" alt="search-icon" role="icon"aria-labelledby="magnifying glass icon"></span>
                             <input type="search" id="search-box-hidden" class="form-control"
                                 placeholder="Search products and Brands" aria-label="search box"
                                 aria-describedby="basic-addon1">

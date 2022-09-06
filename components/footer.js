@@ -58,21 +58,21 @@ class  Footer extends HTMLElement {
                     <div class="box-1">
                         <h3>PAYMENT</h3>
                         <div class="card-holder">
-                            <img src="https://swagofindia.netlify.app/Images/card1.png" alt="card1" >
-                            <img src="https://swagofindia.netlify.app/Images/card2.png" alt="card2" >
-                            <img src="https://swagofindia.netlify.app/Images/card3.png" alt="card3" >
-                            <img src="https://swagofindia.netlify.app/Images/card4.png" alt="card4" >
-                            <img src="https://swagofindia.netlify.app/Images/card2.png" alt="card5" >
-                            <img src="https://swagofindia.netlify.app/Images/card1.png" alt="card6" >
+                            <img src="assets/card1.png" alt="card1" >
+                            <img src="assets/card2.png" alt="card2" >
+                            <img src="assets/card3.png" alt="card3" >
+                            <img src="assets/card4.png" alt="card4" >
+                            <img src="assets/card2.png" alt="card5" >
+                            <img src="assets/card1.png" alt="card6" >
                         </div>
                     </div>
                     <div class="box-2">
                         <h3>SOCIAL</h3>
                         <div class="social-holder">
-                            <img src="https://swagofindia.netlify.app/Images/facebook.png" alt="facebook" >
-                            <img src="https://swagofindia.netlify.app/Images/tw-footer.png" alt="twitter" >
-                            <img src="https://swagofindia.netlify.app/Images/yt-footer.png" alt="youtube" >
-                            <img src="https://swagofindia.netlify.app/Images/ins-footer.png" alt="instagram" >
+                            <img src="assets/facebook.png" alt="facebook" >
+                            <img src="assets/tw-footer.png" alt="twitter" >
+                            <img src="assets/yt-footer.png" alt="youtube" >
+                            <img src="assets/ins-footer.png" alt="instagram" >
                         </div>
                     </div>
                 </div>
